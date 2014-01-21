@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/inCallButtonViewDrivingMode_qcif" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/vtInCallScreenButtonsContainer" android:background="@*android:color/black" android:paddingRight="@dimen/vt_qcif_incall_button_margin_right" android:paddingBottom="@dimen/vt_qcif_incall_button_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:splitMotionEvents="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cancelButton_qcif" android:background="@drawable/driving_call_btn_bg" android:layout_width="102.0dip" android:layout_height="215.0dip" android:splitMotionEvents="false">
+            <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/driving_call_icon_endcall" />
+            <TextView android:duplicateParentState="true" android:text="@string/cancel" style="@style/InCallButtonViewDrivingModeTextView" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

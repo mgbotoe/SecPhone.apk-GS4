@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:prvandroid="http://schemas.android.com/apk/prv/res/android">
+    <View android:id="@id/resizeableHidePatchForInc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ToggleButton android:id="@id/vtIncomingHideButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.android.phone.IncomingCallWidget android:id="@id/incomingCallWidget" android:paddingBottom="@dimen/incoming_call_widget_bottom_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.android.phone.IncomingCallEasyImageWidget android:layout_gravity="bottom" android:id="@id/incomingCallEasyImageWidget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.phone.IncomingCallRejectWidget android:id="@id/incomingCallRejectWidget" android:paddingBottom="@dimen/incoming_call_widget_bottom_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.android.phone.IncomingCallEasyRejectWidget android:id="@id/incomingCallEasyRejectWidget" android:paddingBottom="@dimen/incoming_call_widget_bottom_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <include layout="@layout/incoming_button_view_volte_vt" />
+    <RelativeLayout android:gravity="bottom|center" android:id="@id/reject_call_with_msg_sliding_drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <include layout="@layout/reject_call_with_msg_sliding_drawer" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/inCallControls" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:splitMotionEvents="false">
+        <ViewStub android:id="@id/dtmf_twelve_key_dialer_stub" android:layout="@layout/dtmf_twelve_key_dialer_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialpad_vertical_margin" android:layout_above="@id/bottomButtons" />
+        <FrameLayout android:orientation="vertical" android:id="@id/bottomButtons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <include layout="@layout/incall_button_view_easymode" />
+            <include layout="@layout/incoming_button_view_driving_mode" />
+            <include layout="@layout/incall_button_view_driving_mode" />
+            <include layout="@layout/incall_button_view_driving_mode_qcif" />
+            <include layout="@layout/vt_incall_button_view" />
+            <include layout="@layout/endcall_buttons_view" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

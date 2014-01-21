@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SearchContactButton" parent="@*android:style/Widget.DeviceDefault.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/ic_button_contacts</item>
+        <item name="android:layout_width">58.0dip</item>
+        <item name="android:layout_height">39.0dip</item>
+        <item name="android:layout_marginLeft">9.0dip</item>
+        <item name="android:layout_marginTop">7.5dip</item>
+        <item name="android:layout_marginRight">9.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:contentDescription">@string/importfromContacts</item>
+    </style>
+    <style name="InputTextField">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+    </style>
+</resources>

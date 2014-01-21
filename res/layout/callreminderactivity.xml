@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/call_bg_02" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="30.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_button_alarm_n" />
+            <TextView android:textSize="19.0dip" android:textColor="#ffcccccc" android:layout_width="fill_parent" android:layout_height="26.0dip" android:layout_marginLeft="5.0dip" android:text="@string/reminder_menu" android:shadowDy="-1.0" />
+        </LinearLayout>
+        <ImageView android:gravity="center" android:id="@id/remindCallerPicture" android:background="@drawable/call_callerid_small_bg" android:padding="7.0dip" android:layout_width="197.0dip" android:layout_height="197.0dip" android:layout_marginTop="26.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip">
+            <TextView android:textSize="27.0dip" android:textColor="#ffcccccc" android:layout_gravity="center_vertical" android:id="@id/remindMissedTime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:includeFontPadding="false" android:shadowDy="-1.0" />
+            <ImageView android:id="@id/remindLogtype" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_reminder_voicecall" />
+        </LinearLayout>
+        <TextView android:textSize="30.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/remindCallerNumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:shadowDy="-1.0" />
+        <TextView android:textSize="24.0dip" android:textColor="#ffcccccc" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/remind_calledyou" android:shadowDy="-1.0" />
+    </LinearLayout>
+    <com.android.phone.CallReminderCircle android:id="@id/reminderCallScreenButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

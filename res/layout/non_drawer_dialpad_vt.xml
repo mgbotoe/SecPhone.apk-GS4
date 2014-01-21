@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.DTMFTwelveKeyDialerViewForVT android:orientation="vertical" android:id="@id/non_drawer_dtmf_dialer_vt" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:background="@drawable/call_keypad_bg_01" android:layout_width="fill_parent" android:layout_height="296.0dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="4.0dip">
+        <TableRow>
+            <ImageButton android:id="@id/one" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/call_dial_btn_01" android:contentDescription="@string/description_image_button_one" />
+            <ImageButton android:id="@id/two" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/call_dial_btn_02" android:contentDescription="@string/description_image_button_two" />
+            <ImageButton android:id="@id/three" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginLeft="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/call_dial_btn_03" android:contentDescription="@string/description_image_button_three" />
+        </TableRow>
+        <TableRow>
+            <ImageButton android:id="@id/four" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/call_dial_btn_04" android:contentDescription="@string/description_image_button_four" />
+            <ImageButton android:id="@id/five" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/call_dial_btn_05" android:contentDescription="@string/description_image_button_five" />
+            <ImageButton android:id="@id/six" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/call_dial_btn_06" android:contentDescription="@string/description_image_button_six" />
+        </TableRow>
+        <TableRow>
+            <ImageButton android:id="@id/seven" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/call_dial_btn_07" android:contentDescription="@string/description_image_button_seven" />
+            <ImageButton android:id="@id/eight" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/call_dial_btn_08" android:contentDescription="@string/description_image_button_eight" />
+            <ImageButton android:id="@id/nine" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/call_dial_btn_09" android:contentDescription="@string/description_image_button_nine" />
+        </TableRow>
+        <TableRow>
+            <ImageButton android:id="@id/star" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/call_dial_btn_10" android:contentDescription="@string/description_image_button_star" />
+            <ImageButton android:id="@id/zero" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/call_dial_btn_00_1" android:contentDescription="@string/description_image_button_zero" />
+            <ImageButton android:id="@id/pound" android:background="@drawable/call_dial_btn_bg" android:layout_width="115.0dip" android:layout_height="71.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/call_dial_btn_11" android:contentDescription="@string/description_image_button_pound" />
+        </TableRow>
+    </TableLayout>
+</com.android.phone.DTMFTwelveKeyDialerViewForVT>

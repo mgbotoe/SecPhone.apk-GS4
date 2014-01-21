@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/APKTOOL_DUMMY_0182"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:prvandroid="http://schemas.android.com/apk/prv/res/android">
+    <com.android.phone.IncomingCallWidget android:id="@id/incomingCallWidget" android:paddingBottom="@dimen/incoming_call_widget_bottom_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.android.phone.IncomingCallRejectWidget android:id="@id/incomingCallRejectWidget" android:paddingBottom="@dimen/incoming_call_widget_bottom_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.android.phone.IncomingCallEasyRejectWidget android:id="@id/incomingCallEasyRejectWidget" android:paddingBottom="@dimen/incoming_call_widget_bottom_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <include layout="@layout/incoming_button_view_volte_vt" />
+    <RelativeLayout android:gravity="bottom|center" android:id="@id/reject_call_with_msg_sliding_drawer_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <include layout="@layout/reject_call_with_msg_sliding_drawer" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/inCallControls" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false">
+        <View android:id="@id/mw_incall_touch_ui_top_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="404.0dip">
+            <ViewStub android:id="@id/dtmf_twelve_key_dialer_stub" android:layout="@layout/mw_dtmf_twelve_key_dialer_view" android:layout_width="fill_parent" android:layout_height="404.0dip" />
+            <RelativeLayout android:id="@id/inCallSubControls" android:layout_width="fill_parent" android:layout_height="404.0dip" android:splitMotionEvents="false">
+                <LinearLayout android:id="@id/swithButtonContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="285.0dip" android:layout_marginTop="181.0dip" android:layout_weight="1.0">
+                    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <Button android:id="@id/holdButton" android:visibility="gone" android:text="@string/onscreenHoldText" android:drawableTop="@drawable/APKTOOL_DUMMY_0178" style="@style/MwInCallTouchSmallButton" />
+                        <Button android:id="@id/unholdButton" android:visibility="gone" android:text="@string/onscreenUnholdText" android:drawableTop="@drawable/APKTOOL_DUMMY_017e" style="@style/MwInCallTouchSmallButton" />
+                        <Button android:id="@id/swapButton" android:visibility="gone" android:text="@string/onscreenSwapCallsText" android:drawableTop="@drawable/APKTOOL_DUMMY_017d" style="@style/MwInCallTouchSmallButton" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@id/MultiCallButtonContainer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <View android:layout_gravity="center_vertical" android:background="#66cccccc" android:layout_width="1.0dip" android:layout_height="29.0dip" />
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/MultiCallButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="117.0dip">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/MultiCallButtonImage" android:paddingLeft="10.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_icon_swap" />
+                        <TextView android:textSize="18.0sp" android:textColor="@color/incall_hold_button_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/MultiCallButtonLabel" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/onscreenSwapCallsText" android:layout_weight="1.0" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@id/inCallIconContainer" android:layout_marginLeft="@dimen/APKTOOL_DUMMY_018e" android:layout_marginBottom="@dimen/APKTOOL_DUMMY_018f" style="@style/InCallIconContainer">
+                    <ImageView android:id="@id/noiseReductionIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/APKTOOL_DUMMY_0171" />
+                    <ImageView android:id="@id/hearingCorrectionIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/APKTOOL_DUMMY_0172" />
+                    <ImageView android:id="@id/bluetoothIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_016f" />
+                </LinearLayout>
+                <ImageButton android:id="@id/menuButton" android:background="@drawable/menu_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.0dip" android:layout_marginBottom="510.0dip" android:src="@drawable/call_icon_more" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <View android:id="@id/mw_incall_touch_ui_middle_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:orientation="vertical" android:id="@id/bottomButtons" android:layout_width="fill_parent" android:layout_height="190.0dip" android:layout_alignParentBottom="true">
+            <include layout="@layout/mw_incall_button_view" />
+            <include layout="@layout/incoming_button_view_driving_mode" />
+            <include layout="@layout/incall_button_view_driving_mode" />
+            <include layout="@layout/vt_incall_button_view" />
+            <include layout="@layout/mw_endcall_buttons_view" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

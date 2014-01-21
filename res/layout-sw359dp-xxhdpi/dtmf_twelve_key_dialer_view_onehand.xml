@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.DTMFTwelveKeyDialerView android:orientation="horizontal" android:id="@id/dtmf_twelve_key_dialer_view" android:background="#fff5f5f5" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/arrow_left" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/in_vtcall_arrow_margin_top_onehand" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:background="@null" android:layout_width="66.0dip" android:layout_height="wrap_content" android:src="@drawable/call_btn_arrow_left" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="53.0dip">
+        <EditText android:textSize="43.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/dtmfDialerField" android:background="#fff5f5f5" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="260.0dip" android:layout_height="44.0dip" android:scrollHorizontally="true" android:singleLine="true" android:freezesText="true" />
+        <include layout="@layout/dialpad_onehand" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:id="@id/arrow_right" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/in_vtcall_arrow_margin_top_onehand" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:background="@null" android:layout_width="66.0dip" android:layout_height="wrap_content" android:src="@drawable/call_btn_arrow_right" />
+    </LinearLayout>
+</com.android.phone.DTMFTwelveKeyDialerView>

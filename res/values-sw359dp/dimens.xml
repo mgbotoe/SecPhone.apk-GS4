@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vt_call_top_margin">19.0dip</dimen>
+    <dimen name="vt_end_call_contact_button_height">135.0dip</dimen>
+    <dimen name="vt_end_call_dial_buttons_height">119.0dip</dimen>
+    <dimen name="vt_end_call_dial_buttons_margin_bottom">4.0dip</dimen>
+    <dimen name="list_header_left_padding">16.0dip</dimen>
+    <dimen name="preview_incall_width">120.0dip</dimen>
+    <dimen name="preview_incall_height">160.0dip</dimen>
+</resources>

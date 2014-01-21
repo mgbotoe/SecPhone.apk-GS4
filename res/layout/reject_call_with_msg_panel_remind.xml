@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip">
+        <ImageView android:id="@id/reminder_image" android:background="@drawable/reminder_noti_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="6.0dip" android:layout_centerVertical="true" />
+        <LinearLayout android:layout_toRightOf="@id/reminder_image" style="@style/RejectWithMsgRemindItem">
+            <TextView android:id="@id/reject_call_with_msg_item_text" style="@style/RejectWithMsgRemindItemText" />
+            <Button android:id="@id/reject_call_with_msg_item_button" style="@style/RejectWithMsgItemBtn" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="#ff464646" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

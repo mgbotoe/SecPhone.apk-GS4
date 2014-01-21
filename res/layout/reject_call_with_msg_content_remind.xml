@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#ff020202" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center" android:id="@id/Remind_me_later" android:background="@drawable/remind_button_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="11.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="13.0dip">
+            <TextView android:textSize="18.0dip" android:textColor="@color/incall_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remindmelater" android:singleLine="true" android:includeFontPadding="false" android:drawableLeft="@drawable/call_button_alarm_n" android:drawablePadding="6.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:id="@id/reject_call_with_msg_sub" android:background="@drawable/linearlayout_select_all_item_bg" android:clickable="false" android:layout_width="fill_parent" android:layout_height="25.0dip">
+            <TextView android:textSize="15.0dip" android:textColor="@color/incall_button_text" android:layout_gravity="center" android:paddingLeft="12.0dip" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/reject_call_with_msg" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <include android:id="@id/reject_call_with_msg_item1" layout="@layout/reject_call_with_msg_panel_remind" />
+        <include android:id="@id/reject_call_with_msg_item2" layout="@layout/reject_call_with_msg_panel_remind" />
+        <include android:id="@id/reject_call_with_msg_item3" layout="@layout/reject_call_with_msg_panel_remind" />
+        <include android:id="@id/reject_call_with_msg_item4" layout="@layout/reject_call_with_msg_panel_remind" />
+        <include android:id="@id/reject_call_with_msg_item5" layout="@layout/reject_call_with_msg_panel_remind" />
+        <include android:id="@id/reject_call_with_msg_item6" layout="@layout/reject_call_with_msg_panel_remind" />
+        <LinearLayout android:layout_gravity="center" android:id="@id/reject_call_with_msg_create" android:clickable="true" android:layout_width="fill_parent" android:layout_height="73.0dip">
+            <ImageView android:layout_gravity="center" android:background="@drawable/create_new_msg" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginRight="8.0dip" />
+            <TextView android:textSize="22.0dip" android:textColor="@color/incall_button_text" android:layout_gravity="center" android:paddingRight="7.0dip" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/reject_call_with_msg_create" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

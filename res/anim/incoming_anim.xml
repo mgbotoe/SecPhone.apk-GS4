@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false" id="incoming"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/call_img_ani_01" />
+    <item android:duration="200" android:drawable="@drawable/call_img_ani_02" />
+    <item android:duration="200" android:drawable="@drawable/call_img_ani_03" />
+    <item android:duration="200" android:drawable="@drawable/call_img_ani_04" />
+    <item android:duration="200" android:drawable="@drawable/call_img_ani_05" />
+    <item android:duration="200" android:drawable="@drawable/call_img_ani_06" />
+    <item android:duration="200" android:drawable="@drawable/call_img_ani_07" />
+    <item android:duration="200" android:drawable="@drawable/call_img_ani_08" />
+</animation-list>

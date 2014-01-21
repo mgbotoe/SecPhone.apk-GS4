@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_marginBottom="18.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip">
+            <TextView android:textSize="19.0sp" android:textColor="@color/incall_photo_share_color" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/direct_photo_share_dialog_message" android:layout_alignParentLeft="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/do_not_show_again_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="17.0dip">
+            <com.sec.android.touchwiz.widget.TwCheckBox android:id="@id/do_not_show_again_check_box" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="19.0sp" android:textColor="@color/incall_photo_share_color" android:paddingLeft="8.0dip" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/warning_alert_check" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

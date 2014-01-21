@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.DTMFTwelveKeyDialerView android:orientation="vertical" android:id="@id/dtmf_twelve_key_dialer_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/APKTOOL_DUMMY_0203" android:layout_width="603.0dip" android:layout_height="388.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="8.0dip">
+        <EditText android:textSize="58.0dip" android:textColor="@color/dtmf_dialer_display_text" android:gravity="right|center" android:id="@id/dtmfDialerField" android:background="@drawable/APKTOOL_DUMMY_02c6" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginBottom="8.0dip" android:maxLines="1" android:scrollHorizontally="true" android:singleLine="true" android:freezesText="true" />
+        <include layout="@layout/mw_dialpad" />
+    </LinearLayout>
+</com.android.phone.DTMFTwelveKeyDialerView>

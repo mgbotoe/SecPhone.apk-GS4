@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.DTMFTwelveKeyDialerViewForVT android:orientation="vertical" android:id="@id/non_drawer_dtmf_dialer_vt_land" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:clickable="true" android:layout_width="312.0dip" android:layout_height="265.0dip" android:layout_marginLeft="9.0dip">
+        <TableRow>
+            <ImageButton android:id="@id/one" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_1" android:contentDescription="@string/description_image_button_one" />
+            <ImageButton android:id="@id/two" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_2" android:contentDescription="@string/description_image_button_two" />
+            <ImageButton android:id="@id/three" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_3" android:contentDescription="@string/description_image_button_three" />
+        </TableRow>
+        <TableRow>
+            <ImageButton android:id="@id/four" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_4" android:contentDescription="@string/description_image_button_four" />
+            <ImageButton android:id="@id/five" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_5" android:contentDescription="@string/description_image_button_five" />
+            <ImageButton android:id="@id/six" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_6" android:contentDescription="@string/description_image_button_six" />
+        </TableRow>
+        <TableRow>
+            <ImageButton android:id="@id/seven" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_7" android:contentDescription="@string/description_image_button_seven" />
+            <ImageButton android:id="@id/eight" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_8" android:contentDescription="@string/description_image_button_eight" />
+            <ImageButton android:id="@id/nine" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_9" android:contentDescription="@string/description_image_button_nine" />
+        </TableRow>
+        <TableRow>
+            <ImageButton android:id="@id/star" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_star" android:contentDescription="@string/description_image_button_star" />
+            <ImageButton android:id="@id/zero" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_0" android:contentDescription="@string/description_image_button_zero" />
+            <ImageButton android:id="@id/pound" android:background="@drawable/incall_dial_btn_bg_holo" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/incall_dial_num_pound" android:contentDescription="@string/description_image_button_pound" />
+        </TableRow>
+    </TableLayout>
+</com.android.phone.DTMFTwelveKeyDialerViewForVT>

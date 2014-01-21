@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/incomingButtonViewDrivingMode" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/inCallScreenButtonsContainer" android:paddingLeft="@dimen/incoming_button_view_driving_mode_padding_left" android:paddingTop="@dimen/incoming_button_view_driving_mode_padding_top" android:paddingRight="@dimen/incoming_button_view_driving_mode_padding_right" android:paddingBottom="@dimen/incoming_button_view_driving_mode_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/incoming_button_view_driving_mode_height" android:layout_alignParentBottom="true" android:splitMotionEvents="false">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/answerButton" android:background="@drawable/driving_call_btn_bg" android:layout_width="fill_parent" android:layout_height="@dimen/incoming_button_view_driving_mode_upper_height" android:layout_marginBottom="@dimen/incoming_button_view_driving_mode_margin_bottom" android:splitMotionEvents="false">
+            <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/driving_call_icon_answer" />
+            <TextView android:id="@id/answerButtonTextView" android:duplicateParentState="true" android:text="@string/driving_mode_answer" style="@style/InCallButtonViewDrivingModeTextView" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rejectButton" android:background="@drawable/driving_call_btn_bg" android:layout_width="fill_parent" android:layout_height="@dimen/incoming_button_view_driving_mode_lower_height" android:layout_marginTop="@dimen/incoming_button_view_driving_mode_margin_top" android:splitMotionEvents="false">
+            <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/driving_call_icon_reject" />
+            <TextView android:id="@id/rejectButtonTextView" android:duplicateParentState="true" android:text="@string/driving_mode_reject" style="@style/InCallButtonViewDrivingModeTextView" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

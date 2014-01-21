@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.VtInCallButtonsView android:id="@id/vtInCallButtons" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/vtInCallScreenButtonsContainer" android:background="@*android:color/black" android:paddingLeft="29.0dip" android:paddingTop="15.0dip" android:paddingRight="30.0dip" android:paddingBottom="12.0dip" android:layout_width="@dimen/in_vtcall_land_buttons_width" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:splitMotionEvents="false">
+        <LinearLayout android:orientation="vertical" android:id="@id/vtInCallScreenButtonsInnerContainer" android:background="@drawable/vt_call_btn_bottom_bg_h" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false">
+            <FrameLayout android:id="@id/parent_switchCam_HideKeypad_buttons" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0">
+                <ToggleButton android:gravity="center" android:id="@id/hide_keypad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textOn="@string/menu_hideDialpad" android:textOff="@string/menu_hideDialpad" android:drawableTop="@drawable/call_diapad_hide_icon" style="@style/InVTCallTouchButton" />
+                <Button android:id="@id/switch_camera" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/switch_cam" android:drawableTop="@drawable/switch_camera_button_volte_vt" style="@style/InCallTouchUpperButton" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="top|center" android:id="@id/parent_hideMe_Mute_buttons" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0">
+                <Button android:id="@id/hideMe" android:visibility="gone" android:text="@string/hide" android:drawableTop="@drawable/hide_show" style="@style/InCallTouchUpperButton" />
+                <Button android:id="@id/showMe" android:visibility="gone" android:text="@string/show" android:drawableTop="@drawable/show_hide" style="@style/InCallTouchUpperButton" />
+                <ToggleButton android:id="@id/vtMuteButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textOn="@string/onscreenMuteText" android:textOff="@string/onscreenMuteText" android:drawableTop="@drawable/incall_button_mute_icon" style="@style/InCallTouchToggleButtonNoFrame" />
+                <ToggleButton android:gravity="center" android:id="@id/vtHideMeToggleButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textOn="@string/show" android:textOff="@string/hide" android:drawableTop="@drawable/show_hide_volte_vt" style="@style/InCallTouchToggleButtonNoFrame" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/parent_End_Cancel_buttons" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_weight="1.0">
+                <Button android:id="@id/vtEndButton" android:text="@string/end_call" android:drawableTop="@drawable/incall_button_end_icon" style="@style/InCallTouchUpperButton" />
+                <Button android:id="@id/vtCancelButton" android:visibility="gone" android:text="@string/cancel" android:drawableTop="@drawable/incall_button_cancel_icon" style="@style/InCallTouchUpperButton" />
+                <ToggleButton android:id="@id/vtHeadsetToggleButton" android:visibility="gone" android:textOn="@string/headset" android:textOff="@string/headset" android:drawableTop="@drawable/incall_button_bluetooth_icon" style="@style/InCallTouchUpperButton" />
+                <Button android:id="@id/vtCaptureButton" android:visibility="gone" android:text="@string/capture_menu" android:drawableTop="@drawable/videocall_icon_videocall_capture" style="@style/InCallTouchUpperButton" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.android.phone.VtInCallButtonsView>

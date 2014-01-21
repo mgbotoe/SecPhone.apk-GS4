@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/RejectWithMessageItemCovered">
+        <TextView android:id="@id/reject_call_with_msg_item_text" style="@style/RejectWithMessageItemTextCovered" />
+        <Button android:id="@id/reject_call_with_msg_item_button" style="@style/RejectWithMessageItemBtnCovered" />
+    </LinearLayout>
+    <View android:background="#3fffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

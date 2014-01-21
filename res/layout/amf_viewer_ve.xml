@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:id="@id/visualExpression" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/Amf_Viewer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <VideoView android:layout_gravity="center" android:id="@id/Video_Viewer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.DTMFTwelveKeyDialerViewForVT android:orientation="vertical" android:id="@id/non_drawer_dtmf_dialer_vt_one_hand" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="43.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dtmfDialerFieldOneHand" android:background="@*android:color/black" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="148.0dip" android:scrollHorizontally="true" android:singleLine="true" android:freezesText="true" />
+    <LinearLayout android:id="@id/dtmflayout" android:layout_width="360.0dip" android:layout_height="210.0dip">
+        <ImageView android:id="@id/left_arrow_button" android:visibility="gone" android:layout_width="46.0dip" android:layout_height="49.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="83.0dip" android:layout_marginRight="7.0dip" android:src="@drawable/call_btn_arrow_left" />
+        <TableLayout android:background="@drawable/call_onehand_keypad_bg_02" android:layout_width="259.0dip" android:layout_height="210.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip">
+            <TableRow>
+                <ImageButton android:id="@id/one" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/incall_dial_onehand_btn_01" android:contentDescription="@string/description_image_button_one" />
+                <ImageButton android:id="@id/two" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/incall_dial_onehand_btn_02" android:contentDescription="@string/description_image_button_two" />
+                <ImageButton android:id="@id/three" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/incall_dial_onehand_btn_03" android:contentDescription="@string/description_image_button_three" />
+            </TableRow>
+            <TableRow>
+                <ImageButton android:id="@id/four" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/incall_dial_onehand_btn_04" android:contentDescription="@string/description_image_button_four" />
+                <ImageButton android:id="@id/five" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/incall_dial_onehand_btn_05" android:contentDescription="@string/description_image_button_five" />
+                <ImageButton android:id="@id/six" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/incall_dial_onehand_btn_06" android:contentDescription="@string/description_image_button_six" />
+            </TableRow>
+            <TableRow>
+                <ImageButton android:id="@id/seven" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/incall_dial_onehand_btn_07" android:contentDescription="@string/description_image_button_seven" />
+                <ImageButton android:id="@id/eight" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/incall_dial_onehand_btn_08" android:contentDescription="@string/description_image_button_eight" />
+                <ImageButton android:id="@id/nine" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/incall_dial_onehand_btn_09" android:contentDescription="@string/description_image_button_nine" />
+            </TableRow>
+            <TableRow>
+                <ImageButton android:id="@id/star" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:src="@drawable/incall_dial_onehand_btn_10" android:contentDescription="@string/description_image_button_star" />
+                <ImageButton android:id="@id/zero" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/incall_dial_onehand_btn_00" android:contentDescription="@string/description_image_button_zero" />
+                <ImageButton android:id="@id/pound" android:background="@drawable/call_dial_btn_bg_onehand_vt" android:layout_width="85.0dip" android:layout_height="51.0dip" android:src="@drawable/incall_dial_onehand_btn_11" android:contentDescription="@string/description_image_button_pound" />
+            </TableRow>
+        </TableLayout>
+        <ImageView android:id="@id/right_arrow_button" android:visibility="gone" android:layout_width="46.0dip" android:layout_height="49.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="83.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/call_btn_arrow_right" />
+    </LinearLayout>
+</com.android.phone.DTMFTwelveKeyDialerViewForVT>
